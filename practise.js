@@ -10,3 +10,15 @@ for (let i = 1; i < arr.length; i++) {
   }
 }
 console.log(largest);
+
+// Problem : 2 - find smallest Number from array
+
+let arr2 = [12, 14, 15, 19, 200, 300, 1];
+let smallest = arr2[0];
+for (let i = 1; i < arr2.length; i++) {
+  console.log(arr2[i]);
+  if (arr2[i] < smallest) {
+    smallest = arr2[i];
+  }
+}
+console.log(smallest);
